@@ -2,47 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57b875a-dbe8-4357-b71f-3b929c41a330" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/helpers/path.helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/public/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/routes/admin.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/routes/shop.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/404.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/add-product.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/layouts/layout-main.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/shop.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-expressjs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-expressjs/message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-expressjs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-expressjs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-expressjs/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/helpers/path.helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/routes/admin.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/routes/shop.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/views/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/example-requests/views/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-1-expressjs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/routes/global.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/views/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-5/practice-2-navigation/views/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-project/views/404.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-project/views/add-product.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-project/views/layouts/main-layout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-project/views/shop.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/lib/express-handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/lib/express-handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/express-handlebars/renovate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/bin/handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/bin/handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/amd/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/amd/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/cjs/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/cjs/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/dist/handlebars.runtime.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/lib/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/lib/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/handlebars/release-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/boolean_double.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/boolean_single.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/default_hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/default_singles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/divide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/line_count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/line_count_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/line_count_wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/nonopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/reflect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/usage-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/example/xup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/example/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/dash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/default_bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/dotted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/long.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/num.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/parse_modified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/node_modules/minimist/test/whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/readme.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/_/argv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/_/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/dash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/parse_modified.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/usage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/optimist/test/whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/compress.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/compress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/minify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/sourcemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/sourcemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/uglify-js/tools/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/uglify-js/tools/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/wordwrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/wordwrap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/wordwrap/test/break.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/wordwrap/test/break.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/node_modules/wordwrap/test/wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/node_modules/wordwrap/test/wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/routes/admin.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/routes/shop.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/routes/shop.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/views/404.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +166,7 @@
       <workItem from="1585448275822" duration="868000" />
       <workItem from="1585500093561" duration="5728000" />
       <workItem from="1585572685841" duration="142000" />
-      <workItem from="1586798955722" duration="5349000" />
+      <workItem from="1586798955722" duration="8481000" />
     </task>
     <servers />
   </component>
