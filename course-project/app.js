@@ -1,7 +1,9 @@
-const express = require('express');
+// NodeJS Packages
 const path = require('path');
-const bodyParser = require('body-parser');
 
+// Third party packages
+const express = require('express');
+const bodyParser = require('body-parser');
 
 // Import Routes
 const adminRoutes = require('./routes/admin.routes');
@@ -9,25 +11,18 @@ const shopRoutes = require('./routes/shop.routes');
 
 const app = express();
 
-//Registering new template render
-// const handlebars = require('express-handlebars');
-// app.engine('hbs', handlebars({
-//     layoutsDir: 'views/layouts/',
-//     defaultLayout: 'main-layout',
-//     extname: 'hbs'
-// }));
-
-//Config renders
-// app.set('view engine', 'pug');
-// app.set('view engine', 'hbs');
-app.set('view engine', 'ejs');
+//Config template render
+app.set('view engine', 'pug');
 app.set('views', 'views');
 
+//Config public files
 app.use(express.static(path.join(__dirname, 'public')));
+
+//Config the body parser to use post more simplified
 app.use(bodyParser.urlencoded({extended: false}));
 
 //Routes
-app.use('/admin', adminRoutes.routes);
+app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
 app.listen(3000);

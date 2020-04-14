@@ -1,27 +1,13 @@
 const express = require('express');
-const path = require('path');
 
 const router = express.Router();
 
-const rootDir = require('../helpers/path.helpers');
+// Controllers
+const productsController = require('../controllers/products.controller');
+const errorsController = require('../controllers/errors.controller');
 
-const adminRoutes = require('./admin.routes');
-
-router.get('/', (req, res, next) => {
-    const products = adminRoutes.products;
-    res.render('shop', {
-        prods: products,
-        pageTitle: 'Shop',
-        path: '/',
-        hasProducts: products.length > 0,
-        activeShop: true,
-        productCSS: true
-    });
-});
-
-router.use((req, res, next) => {
-    // res.status(404).sendFile(path.join(rootDir, 'views', '404.html'));
-    res.status(404).render('404', {pageTitle: '404 Not Found'});
-});
+// Routes
+router.get('/', productsController.getProducts);
+router.use(errorsController.handle404);
 
 module.exports = router;
