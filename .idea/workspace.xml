@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57b875a-dbe8-4357-b71f-3b929c41a330" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/course-project/controllers/errors.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/controllers/products.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-project/models/product.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/routes/admin.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/routes/admin.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/routes/shop.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/routes/shop.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/404.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/404.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/add-product.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/add-product.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/shop.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/views/shop.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project/controllers/products.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/controllers/products.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +84,7 @@
       <workItem from="1585448275822" duration="868000" />
       <workItem from="1585500093561" duration="5728000" />
       <workItem from="1585572685841" duration="142000" />
-      <workItem from="1586798955722" duration="15840000" />
+      <workItem from="1586798955722" duration="16698000" />
     </task>
     <servers />
   </component>
