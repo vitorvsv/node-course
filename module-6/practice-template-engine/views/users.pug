@@ -1,0 +1,10 @@
+extends layouts/master
+
+block content
+    if users.length > 0
+        h1 User List
+        ul
+            each user in users
+                li #{user.name}
+    else
+        h1 Nenhum usuário adicionado

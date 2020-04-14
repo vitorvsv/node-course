@@ -1,0 +1,9 @@
+extends layouts/master
+
+block content
+    h1 Add User
+    form(method="POST", action="/add-user")
+        label(for="name")
+        input(type="text", name="name", id="name")
+        button(type="submit") Add user
+

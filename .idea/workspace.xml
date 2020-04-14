@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b57b875a-dbe8-4357-b71f-3b929c41a330" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/course-project/views/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/add-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-project/views/shop.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-6/practice-template-engine/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-6/practice-template-engine/routes/global.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-6/practice-template-engine/views/home.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-6/practice-template-engine/views/layouts/master.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-6/practice-template-engine/views/users.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-project/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/course-project/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1585448275822" duration="868000" />
       <workItem from="1585500093561" duration="5728000" />
       <workItem from="1585572685841" duration="142000" />
-      <workItem from="1586798955722" duration="10634000" />
+      <workItem from="1586798955722" duration="14261000" />
     </task>
     <servers />
   </component>
@@ -94,10 +95,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="202" width="633" height="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586804611213">
+    <state x="387" y="202" width="633" height="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586819786983">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="387" y="202" width="633" height="405" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1586804611213" />
+    <state x="387" y="202" width="633" height="405" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1586819786983" />
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585572825731">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
